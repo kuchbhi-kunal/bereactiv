@@ -4,6 +4,6 @@ enjoy the cool animation */
 
 function onBtnClickHandle(){
     setTimeout(function(){ 
-    window.location="https://reactiv.in/"
+    window.location="reactiv console/reactivconsole.html"
  }, 1000);
 }
