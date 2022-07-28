@@ -455,8 +455,8 @@ img{
 
 /*=============== PRODUCTS ===============*/
 .products__bg{
-  background-color: var(--first-color);
-  padding: 3rem 2rem 2rem;
+  background-color: transparent;
+  padding: 3rem 0rem 2rem 0rem;
   border-radius: 2rem;
 }
 
@@ -466,35 +466,54 @@ img{
 }
 
 .products__title{
-  color: #FFF;
+  color: #000;
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .products__card{
   background-color: var(--container-color);
   padding: 2.5rem 3rem 2rem 1.5rem;
   border-radius: 1.5rem;
+  box-shadow: 4px 4px 20px #ecebeb;
 }
 
 
 .products__card-title{
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: var(--mb-0-5);
 }
 
-.products__card-description{
-  font-size: 1.1rem;
-}
 
 .products__card:hover .steps__card-number{
   transform: translateY(-.25rem);
 }
 
 .productimg{
-  width: 30%;
+  width: 40%;
+  margin-bottom: 2rem;
+  margin-left: 5.5rem;
+}
+
+.product__details-icon{
+  font-size: 1.3rem;
+  color: #37ad00;
+  margin-top: 0.1;
+}
+
+.product__details-description{
+  display: inline-flex;
+  column-gap: .5rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
+
+.freeplan{
+  color: #969696;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 /*=============== QUESTIONS ===============*/
 .questions{
   background-color: #f16400;
@@ -828,7 +847,7 @@ img{
   }
 
   .products__container{
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .footer__subscribe{
@@ -877,6 +896,9 @@ img{
   }
   .home__social{
     top: 30%;
+  }
+  .productimg{
+    margin-left: 4.5rem;
   }
 
   .questions__container{
@@ -931,13 +953,20 @@ img{
   }
 
   .products__container{
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .products__bg{
-    padding: 3.5rem 2.5rem;
+    padding: 3.5rem 0rem;
   }
   .products__card-title{
     font-size: 1.5rem;
+  }
+  .productimg{
+    margin-left: 4rem;
+  }
+
+  .product__details-description{
+    font-size: 0.9rem;
   }
 
  
