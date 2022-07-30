@@ -14,7 +14,7 @@ body {
   height: 100vh;
   justify-content: center; /*center vertically */
   align-items: center; /* center horizontally */
-  background: #efefef;
+  background: #ffffff;
   padding: 10px;
 }
 /* container and form */
@@ -183,7 +183,7 @@ form .button input:hover {
 @media only screen and (max-width: 584px) {
   .container {
     max-width: 100%;
-    margin-top: -5rem;
+    margin-top: -1rem;
   }
 
   form .user__details .input__box {
@@ -200,7 +200,7 @@ form .button input:hover {
   }
 
   .container form .user__details {
-    max-height: 370px;
+    max-height: 310px;
     overflow-y:scroll;
   }
 }
