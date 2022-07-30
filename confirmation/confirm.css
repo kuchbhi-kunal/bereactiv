@@ -17,8 +17,16 @@ body{
     text-align: center;
 }
 
+.confirm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem;
+}
+
 .thumbsup{
-    width: 90px;
+    width: 100px;
     height: 100%;
     margin: 1rem;
 }
@@ -33,6 +41,19 @@ p{
     font-size: 1.3rem;
     font-weight: 400;
     margin-bottom: 1rem;
-    margin: 1rem;
+    margin: 1.5rem;
     line-height: 1.7rem;
+}
+
+.button{
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 23px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.button:hover{
+    background-color: #434343;
 }
