@@ -514,6 +514,11 @@ img{
   font-size: 1rem;
 }
 
+.strikeoff{
+  text-decoration: line-through;
+  color: #dc0000;
+}
+
 /*=============== QUESTIONS ===============*/
 .questions{
   background-color: #f16400;
