@@ -5,5 +5,5 @@ enjoy the cool animation */
 function onBtnClickHandle(){
     setTimeout(function(){ 
     window.location="reactiv console/reactivconsole.html"
- }, 1000);
+ }, 1700);
 }
